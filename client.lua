@@ -104,9 +104,9 @@ end)
 -- RequestImap(174727090)  -- Unknown, possibly causing CTDs
 --
 
-RequestImap(183712523) -- CharacterCreator
-RequestImap(-1699673416) -- CharacterCreator
-RequestImap(1679934574) -- CharacterCreator
+RequestImap(183712523) -- CharacterCreator, main interior
+RequestImap(-1699673416) -- CharacterCreator, pipes and background buildings
+RequestImap(1679934574) -- CharacterCreator, background trees
 -- -559.93 -3776.59 238.6 266.08
 
 --------------------------------                                   ############# -- Valentine Investigate -- ###############                                       ----------------------
