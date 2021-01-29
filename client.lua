@@ -74,6 +74,8 @@ Citizen.CreateThread(function()
                 ActivateInteriorEntitySet(interior, "Beechers_decorated_after_Abigail3")
                 ActivateInteriorEntitySet(interior, "IntGrp_livingrm_furniture_basic")
                 ActivateInteriorEntitySet(interior, "bee_01_house_fireplace_on")
+		ActivateInteriorEntitySet(interior, "BEECHERS_PIANO_STOOL")
+		ActivateInteriorEntitySet(interior, "bee_01_house_chair")
                 print("Beechers Interior Activated")
             end
         end
