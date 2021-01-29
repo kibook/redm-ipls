@@ -96,6 +96,16 @@ Citizen.CreateThread(function()
             end
         end
 
+	local interior = 74241
+	if IsValidInterior(interior) then
+		if IsInteriorEntitySetActive(interior, "mp_char_female_mirror") then
+			print("Character Creator Interior Already Active")
+		else
+			ActivateInteriorEntitySet(interior, "mp_char_female_mirror")
+			print("Character Creator Interior Activated")
+		end
+	end
+
         isLoaded = true
     end
 end)
