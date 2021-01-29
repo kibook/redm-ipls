@@ -106,6 +106,16 @@ Citizen.CreateThread(function()
 		end
 	end
 
+	local interior = 69122
+	if IsValidInterior(interior) then
+		if IsInteriorEntitySetActive(interior, "rho_slum_player_trelawny01_stage_01") then
+			print("Trelawny Caravan Interior Already Active")
+		else
+			ActivateInteriorEntitySet(interior, "rho_slum_player_trelawny01_stage_01")
+			print("Trelawny Caravan Interior Activated")
+		end
+	end
+
         isLoaded = true
     end
 end)
@@ -2633,3 +2643,6 @@ RequestImap(298954243)
 RequestImap(1003223945)
 RequestImap(220012076)
 RequestImap(1465430690)
+
+-- Trelawny's Caravan
+RemoveImap(3804149174) -- Removes blocked entrance
