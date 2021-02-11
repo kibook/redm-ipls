@@ -118,6 +118,20 @@ Citizen.CreateThread(function()
 		end
 	end
 
+	local interior = 14338
+	if IsValidInterior(interior) then
+		if IsInteriorEntitySetActive(interior, "abe_farmhouse_chest") then
+			print("Aberdeen Pig Farm Interior Already Active")
+		else
+			ActivateInteriorEntitySet(interior, "abe_farmhouse_chest")
+			ActivateInteriorEntitySet(interior, "clean_abe")
+			ActivateInteriorEntitySet(interior, "abe_SP_armoir")
+			ActivateInteriorEntitySet(interior, "ABE_WORKROOM")
+			ActivateInteriorEntitySet(interior, "p_lamphanging04x")
+			ActivateInteriorEntitySet(interior, "p_washbasinset01x")
+		end
+	end
+
         isLoaded = true
     end
 end)
