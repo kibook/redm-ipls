@@ -129,6 +129,7 @@ Citizen.CreateThread(function()
 			ActivateInteriorEntitySet(interior, "ABE_WORKROOM")
 			ActivateInteriorEntitySet(interior, "p_lamphanging04x")
 			ActivateInteriorEntitySet(interior, "p_washbasinset01x")
+			print("Aberdeen Pig Farm Interior Activated")
 		end
 	end
 
