@@ -405,6 +405,44 @@ Citizen.CreateThread(function()
 		"new_com_bank_before"
 	})
 
+	ActivateInteriorEntitySets(514, "Tumbleweed general store", {
+		"_p_apple01x_dressing",
+		"_p_apple01x_group",
+		"_p_cigarettebox01x_dressing",
+		"_p_cigarettebox01x_group",
+		"_p_corn02x_dressing",
+		"_p_corn02x_group",
+		"_p_tin_pomade01x_dressing",
+		"_p_tin_pomade01x_group",
+		"_p_tin_soap01x_dressing",
+		"_p_tin_soap01x_group",
+		"_saltedmeats_dressing",
+		"_s_canCorn01x_dressing",
+		"_s_canCorn01x_group",
+		"_s_canPeas01x_dressing",
+		"_s_canPeas01x_group",
+		"_s_canStrawberries01x_dressing",
+		"_s_canStrawberries01x_group",
+		"_s_coffeeTin01x_dressing",
+		"_s_coffeeTin01x_group",
+		"_s_gunOil01x_dressing",
+		"_s_gunOil01x_group",
+		"_s_inv_baitHerb01x_dressing",
+		"_s_inv_baitherb01x_group",
+		"_s_inv_baitMeat01x_dressing",
+		"_s_inv_baitmeat01x_group",
+		"_s_inv_gin01x_dressing",
+		"_s_inv_gin01x_group",
+		"_s_inv_tabacco01x_dressing",
+		"_s_inv_tabacco01x_group",
+		"_s_inv_whiskey01x_dressing",
+		"_s_inv_whiskey01x_group",
+		"_s_oatcakes01x_dressing",
+		"_s_oatcakes01x_group",
+		"_s_saltedbeef01x_group",
+		"_s_saltedbeef02x_group"
+	})
+
         isLoaded = true
     end
 end)
