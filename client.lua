@@ -283,6 +283,23 @@ Citizen.CreateThread(function()
 		"_s_inv_varmint_rifleammo01x_group"
 	})
 
+	ActivateInteriorEntitySets(2050, "Saint Denis gun store", {
+		"_s_inv_arrowammo01x_dressing",
+		"_s_inv_highvlcty_pstAmmo01x_group",
+		"_s_inv_highvlcty_revAmmo01x_group",
+		"_s_inv_highvlcty_rifleAmmo01x_group",
+		"_s_inv_pistolAmmo01x_dressing",
+		"_s_inv_pistolAmmo01x_group",
+		"_s_inv_revolverAmmo01x_dressing",
+		"_s_inv_revolverAmmo01x_group",
+		"_s_inv_rifleAmmo01x_dressing",
+		"_s_inv_rifleAmmo01x_group",
+		"_s_inv_shotgunAmmo01x_dressing",
+		"_s_inv_shotgunAmmo01x_group",
+		"_s_inv_slug_shotgunAmmo01x_group",
+		"_s_inv_varmint_rifleammo01x_group"
+	})
+
         isLoaded = true
     end
 end)
