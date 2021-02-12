@@ -1,5 +1,18 @@
 local isLoaded = false
 
+function ActivateInteriorEntitySets(interior, name, sets)
+	if IsValidInterior(interior) then
+		if IsInteriorEntitySetActive(interior, sets[1]) then
+			print(name .. " interior already active")
+		else
+			for _, set in ipairs(sets) do
+				ActivateInteriorEntitySet(interior, set)
+			end
+			print(name .. " interior activated")
+		end
+	end
+end
+
 Citizen.CreateThread(function()
     while not isLoaded do
         Citizen.Wait(1)
@@ -142,6 +155,69 @@ Citizen.CreateThread(function()
 			print("Emerald Ranch Saloon Interior Activated")
 		end
 	end
+
+	ActivateInteriorEntitySets(61442, "Blackwater general store", {
+		"_p_apple01x_dressing",
+		"_p_apple01x_dressing",
+		"_p_carrots_01x_dressing",
+		"_p_carrots_01x_group",
+		"_p_cigar02x_dressing",
+		"_p_cigar02x_group",
+		"_p_cigarettebox01x_dressing",
+		"_p_cigarettebox01x_group",
+		"_p_int_fishing01_dressing",
+		"_p_tin_pomade01x_dressing",
+		"_p_tin_pomade01x_group",
+		"_p_tin_soap01x_dressing",
+		"_p_tin_soap01x_group",
+		"_s_beardTonic01x_dressing",
+		"_s_beardTonic01x_group",
+		"_s_biscuits01x_dressing",
+		"_s_biscuits01x_group",
+		"_s_brandy01x_group",
+		"_s_canApricots01x_dressing",
+		"_s_canApricots01x_group",
+		"_s_candyBag01x_red_group",
+		"_s_canKidney01x_dressing",
+		"_s_cankidney01x_group",
+		"_s_canPeas01x_dressing",
+		"_s_canPeas01x_group",
+		"_s_cheeseWedge1x_group",
+		"_s_chocolateBar02x_dressing",
+		"_s_chocolateBar02x_group",
+		"_s_coffeeTin01x_dressing",
+		"_s_coffeeTin01x_group",
+		"_s_cornedBeef01x_dressing",
+		"_s_cornedBeef01x_group",
+		"_s_crackers01x_dressing",
+		"_s_crackers01x_group",
+		"_s_cricketTin01x_dressing",
+		"_s_cricketTin01x_group",
+		"_s_gunOil01x_dressing",
+		"_s_gunOil01x_group",
+		"_s_inv_baitHerb01x_dressing",
+		"_s_inv_baitherb01x_group",
+		"_s_inv_baitMeat01x_dressing",
+		"_s_inv_baitmeat01x_group",
+		"_s_inv_gin01x_dressing",
+		"_s_inv_gin01x_group",
+		"_s_inv_horsePills01x_dressing",
+		"_s_inv_horsePills01x_group",
+		"_s_inv_rum01x_dressing",
+		"_s_inv_rum01x_group",
+		"_s_inv_tabacco01x_dressing",
+		"_s_inv_tabacco01x_group",
+		"_s_inv_whiskey01x_dressing",
+		"_s_inv_whiskey01x_group",
+		"_s_oatcakes01x_dressing",
+		"_s_oatcakes01x_group",
+		"_s_peach01x_dressing",
+		"_s_peach01x_group",
+		"_s_saltedbeef01x_group",
+		"_s_saltedbeef02x_group",
+		"_s_wormCan01x_dressing",
+		"_s_wormcan01x_group"
+	})
 
         isLoaded = true
     end
