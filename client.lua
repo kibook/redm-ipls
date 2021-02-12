@@ -132,6 +132,17 @@ Citizen.CreateThread(function()
 		end
 	end
 
+	local interior = 45314
+	if IsValidInterior(interior) then
+		if IsInteriorEntitySetActive(interior, "eme_saloon_intgroup_curtains") then
+			print("Emerald Ranch Saloon Interior Already Active")
+		else
+			ActivateInteriorEntitySet(interior, "eme_saloon_intgroup_curtains")
+			ActivateInteriorEntitySet(interior, "eme_saloon_intgroup_furniture")
+			print("Emerald Ranch Saloon Interior Activated")
+		end
+	end
+
         isLoaded = true
     end
 end)
