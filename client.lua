@@ -472,6 +472,11 @@ Citizen.CreateThread(function()
 		"rhobank_int_walla"
 	})
 
+	ActivateInteriorEntitySets(28418, "Carmody Dell", {
+		"_car_house_int_before_ransack",
+		"_car_house_int_day"
+	})
+
         isLoaded = true
     end
 end)
