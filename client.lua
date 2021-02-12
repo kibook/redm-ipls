@@ -443,6 +443,31 @@ Citizen.CreateThread(function()
 		"_s_saltedbeef02x_group"
 	})
 
+	ActivateInteriorEntitySets(11778, "Tumbleweed gun store", {
+		"tum_gunsmith_int_rentSign",
+		"_s_inv_arrowammo01x_dressing",
+		"_s_inv_highvlcty_pstAmmo01x_group",
+		"_s_inv_highvlcty_revAmmo01x_group",
+		"_s_inv_highvlcty_rifleAmmo01x_group",
+		"_s_inv_pistolAmmo01x_group",
+		"_s_inv_pistol_sign_dressing",
+		"_s_inv_repeater_sign_dressing",
+		"_s_inv_repeatHV_rifleammo01x_group",
+		"_s_inv_repeatXS_rifleammo01x_group",
+		"_s_inv_repeat_rifleammo01x_group",
+		"_s_inv_revolverAmmo01x_group",
+		"_s_inv_revolver_sign_dressing",
+		"_s_inv_rifleAmmo01x_group",
+		"_s_inv_rifle_sign_dressing",
+		"_s_inv_shotgunAmmo01x_group",
+		"_s_inv_shotgun_sign_dressing",
+		"_s_inv_slug_shotgunAmmo01x_group",
+		"_s_inv_varmint_rifleammo01x_group",
+		"_s_inv_xpres_pstAmmo01x_group",
+		"_s_inv_xpres_revAmmo01x_group",
+		"_s_inv_xpres_rifleAmmo01x_group"
+	})
+
         isLoaded = true
     end
 end)
