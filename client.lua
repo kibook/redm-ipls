@@ -102,6 +102,26 @@ Citizen.CreateThread(function()
 		"_s_wormcan01x_group"
 	})
 
+	ActivateInteriorEntitySets(63746, "Valentine gun store", {
+		"_s_inv_arrowammo01x_dressing",
+		"_s_inv_highvlcty_pstAmmo01x_group",
+		"_s_inv_highvlcty_pstAmmo01x_group",
+		"_s_inv_highvlcty_pstAmmo01x_group",
+		"_s_inv_pistolAmmo01x_group",
+		"_s_inv_pistol_sign_dressing",
+		"_s_inv_repeater_sign_dressing",
+		"_s_inv_repeatHV_rifleammo01x_group",
+		"_s_inv_repeat_rifleammo01x_group",
+		"_s_inv_revolverAmmo01x_group",
+		"_s_inv_revolver_sign_dressing",
+		"_s_inv_rifleAmmo01x_group",
+		"_s_inv_rifle_sign_dressing",
+		"_s_inv_shotgunAmmo01x_group",
+		"_s_inv_shotgun_sign_dressing",
+		"_s_inv_slug_shotgunAmmo01x_group",
+		"_s_inv_varmint_rifleammo01x_group"
+	})
+
 	ActivateInteriorEntitySets(51202, "Riverboat", {
 		"korrigan_props_poker"
 	})
