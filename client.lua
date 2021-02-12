@@ -494,6 +494,13 @@ Citizen.CreateThread(function()
 		"_s_inv_tonic01x_group"
 	})
 
+	ActivateInteriorEntitySets(39938, "Geddes Ranch worker quarters", {
+		"pro_int_shaving",
+		"pro_worker_bedmade",
+		"pro_worker_food",
+		"pro_worker_jack_bed_ambient"
+	})
+
         isLoaded = true
     end
 end)
