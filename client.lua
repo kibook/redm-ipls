@@ -477,6 +477,23 @@ Citizen.CreateThread(function()
 		"_car_house_int_day"
 	})
 
+	ActivateInteriorEntitySets(34562, "Saint Denis doctor", {
+		"SD_doc_curtain01",
+		"_s_candyBag01x_red_group",
+		"_s_chocolateBar02x_dressing",
+		"_s_chocolateBar02x_group",
+		"_s_inv_CocaineGum01x_dressing",
+		"_s_inv_CocaineGum01x_group",
+		"_s_inv_medicine01x_dressing",
+		"_s_inv_medicine01x_group",
+		"_s_inv_medicine_fty_dressing",
+		"_s_inv_medicine_fty_group",
+		"_s_inv_supertonic01x_dressing",
+		"_s_inv_supertonic01x_group",
+		"_s_inv_tonic01x_dressing",
+		"_s_inv_tonic01x_group"
+	})
+
         isLoaded = true
     end
 end)
