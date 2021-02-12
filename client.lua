@@ -16,145 +16,71 @@ end
 Citizen.CreateThread(function()
     while not isLoaded do
         Citizen.Wait(1)
-        local interior = GetInteriorAtCoords(-308.88, 777.37, 118.77)
-        local isValid = IsValidInterior(interior)
-        if isValid then
-            if IsInteriorEntitySetActive(interior, "val_bank_front_windows") then
-                print("Valentine Bank Interior Already Active")
-            else
-                ActivateInteriorEntitySet(interior, "val_bank_int_curtainsopen")
-                -- ActivateInteriorEntitySet(interior, "val_bank_mud5_windowblock")
-                ActivateInteriorEntitySet(interior, "val_bank_front_windows")
-                print("Valentine Bank Interior Activated")
-            end
-        end
 
-        local interior = GetInteriorAtCoords(-310.0119, 802.9316, 117.9846)
-        local isValid = IsValidInterior(interior)
-        if isValid then
-            if IsInteriorEntitySetActive(interior, "front_windows") then
-                print("Valentine Saloon Interior Already Active")
-            else
-                ActivateInteriorEntitySet(interior, "front_windows")
-                ActivateInteriorEntitySet(interior, "val_saloon_br03_bed")
-                ActivateInteriorEntitySet(interior, "6_chair_poker_set")
-                print("Valentine Saloon Interior Activated")
-            end
-        end
+	ActivateInteriorEntitySets(12290, "Valentine bank", {
+		"val_bank_front_windows",
+		"val_bank_int_curtainsopen"
+	})
 
-        local interior = GetInteriorAtCoords(-273.4513, 811.3408, 118.38)
-        local isValid = IsValidInterior(interior)
-        if isValid then
-            if IsInteriorEntitySetActive(interior, "val_jail_int_walla") then
-                print("Valentine Jail Interior Already Active")
-            else
-                ActivateInteriorEntitySet(interior, "val_jail_int_walla")
-                ActivateInteriorEntitySet(interior, "val_jail_int_wallb")
-                print("Valentine Jail Interior Activated")
-            end
-        end
+	ActivateInteriorEntitySets(21250, "Valentine saloon", {
+		"front_windows",
+		"val_saloon_br03_bed",
+		"6_chair_poker_set"
+	})
 
-        local interior = GetInteriorAtCoords(323.0087, 801.0296, 116.8817)
-        local isValid = IsValidInterior(interior)
-        if isValid then
-            if IsInteriorEntitySetActive(interior, "val_genstore_night_light") then
-                print("Valentine General Store Nightlight Activated")
-            else
-                ActivateInteriorEntitySet(interior, "val_genstore_night_light")
-                print("Valentine General Store Nightlight Activated")
-            end
-        end
+	ActivateInteriorEntitySets(7170, "Valentine jail", {
+		"val_jail_int_walla",
+		"val_jail_int_wallb"
+	})
 
-        local interior = 51202
-        local isValid = IsValidInterior(interior)
-        if isValid then
-            if IsInteriorEntitySetActive(interior, "korrigan_props_poker") then
-                print("Riverboat Interior Already Active")
-            else
-                ActivateInteriorEntitySet(interior, "korrigan_props_poker")
-                print("Riverboat Interior Activated")
-            end
-        end
+	ActivateInteriorEntitySets(45826, "Valentine general store", {
+		"val_genstore_night_light"
+	})
 
-        local interior = GetInteriorAtCoords(-1643.893, -1358.232, 86.4541)
-        local isValid = IsValidInterior(interior)
-        if isValid then
-            if IsInteriorEntitySetActive(interior, "bee_01_house_fireplace_on") then
-                print("Beechers Interior Already Active")
-            else
-                ActivateInteriorEntitySet(interior, "bee_01_masterBR_bed01")
-                ActivateInteriorEntitySet(interior, "Beechers_decorated_after_Abigail3")
-                ActivateInteriorEntitySet(interior, "IntGrp_livingrm_furniture_basic")
-                ActivateInteriorEntitySet(interior, "bee_01_house_fireplace_on")
-		ActivateInteriorEntitySet(interior, "BEECHERS_PIANO_STOOL")
-		ActivateInteriorEntitySet(interior, "bee_01_house_chair")
-                print("Beechers Interior Activated")
-            end
-        end
+	ActivateInteriorEntitySets(51202, "Riverboat", {
+		"korrigan_props_poker"
+	})
 
-        local interior = GetInteriorAtCoords(2385.548, -1221.158, 46.1729)
-        local isValid = IsValidInterior(interior)
-        if isValid then
-            if not IsInteriorEntitySetActive(interior, "bronte_shutters_open") then
-                ActivateInteriorEntitySet(interior, "bronte_shutters_open")
-                ActivateInteriorEntitySet(interior, "bronte_glass_unbreakable")
-            end
-        end
+	ActivateInteriorEntitySets(50690, "Beechers", {
+		"bee_01_masterBR_bed01",
+		"Beechers_decorated_after_Abigail3",
+		"IntGrp_livingrm_furniture_basic",
+		"bee_01_house_fireplace_on",
+		"BEECHERS_PIANO_STOOL",
+		"bee_01_house_chair"
+	})
+
+	ActivateInteriorEntitySets(49154, "Bronte", {
+		"bronte_shutters_open",
+		"bronte_glass_unbreakable"
+	})
     
-        local interior = GetInteriorAtCoords(1006.364, -1766.812, 46.5922)
-        local isValid = IsValidInterior(interior)
-        if isValid then
-            if not IsInteriorEntitySetActive(interior, "bra_mansion_WindowsStatic") then
-                ActivateInteriorEntitySet(interior, "bra_mansion_WindowsStatic")
-                ActivateInteriorEntitySet(interior, "bra_int_bedroom_clean")
-            end
-        end
+	ActivateInteriorEntitySets(72706, "Braithwaite mansion", {
+		"bra_mansion_WindowsStatic",
+		"bra_int_bedroom_clean"
+	})
 
-	local interior = 74241
-	if IsValidInterior(interior) then
-		if IsInteriorEntitySetActive(interior, "mp_char_female_mirror") then
-			print("Character Creator Interior Already Active")
-		else
-			ActivateInteriorEntitySet(interior, "mp_char_female_mirror")
-			print("Character Creator Interior Activated")
-		end
-	end
+	ActivateInteriorEntitySets(74241, "Character creator", {
+		"mp_char_female_mirror"
+	})
 
-	local interior = 69122
-	if IsValidInterior(interior) then
-		if IsInteriorEntitySetActive(interior, "rho_slum_player_trelawny01_stage_01") then
-			print("Trelawny Caravan Interior Already Active")
-		else
-			ActivateInteriorEntitySet(interior, "rho_slum_player_trelawny01_stage_01")
-			print("Trelawny Caravan Interior Activated")
-		end
-	end
+	ActivateInteriorEntitySets(69122, "Trelawny caravan", {
+		"rho_slum_player_trelawny01_stage_01"
+	})
 
-	local interior = 14338
-	if IsValidInterior(interior) then
-		if IsInteriorEntitySetActive(interior, "abe_farmhouse_chest") then
-			print("Aberdeen Pig Farm Interior Already Active")
-		else
-			ActivateInteriorEntitySet(interior, "abe_farmhouse_chest")
-			ActivateInteriorEntitySet(interior, "clean_abe")
-			ActivateInteriorEntitySet(interior, "abe_SP_armoir")
-			ActivateInteriorEntitySet(interior, "ABE_WORKROOM")
-			ActivateInteriorEntitySet(interior, "p_lamphanging04x")
-			ActivateInteriorEntitySet(interior, "p_washbasinset01x")
-			print("Aberdeen Pig Farm Interior Activated")
-		end
-	end
+	ActivateInteriorEntitySets(14338, "Aberdeen pig farm", {
+		"abe_farmhouse_chest",
+		"clean_abe",
+		"abe_SP_armoir",
+		"ABE_WORKROOM",
+		"p_lamphanging04x",
+		"p_washbasinset01x"
+	})
 
-	local interior = 45314
-	if IsValidInterior(interior) then
-		if IsInteriorEntitySetActive(interior, "eme_saloon_intgroup_curtains") then
-			print("Emerald Ranch Saloon Interior Already Active")
-		else
-			ActivateInteriorEntitySet(interior, "eme_saloon_intgroup_curtains")
-			ActivateInteriorEntitySet(interior, "eme_saloon_intgroup_furniture")
-			print("Emerald Ranch Saloon Interior Activated")
-		end
-	end
+	ActivateInteriorEntitySets(45314, "Emerald Ranch saloon", {
+		"eme_saloon_intgroup_curtains",
+		"eme_saloon_intgroup_furniture"
+	})
 
 	ActivateInteriorEntitySets(61442, "Blackwater general store", {
 		"_p_apple01x_dressing",
