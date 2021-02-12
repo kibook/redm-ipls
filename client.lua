@@ -2656,7 +2656,7 @@ RequestImap(-759698431)
 --RequestImap(-406964748) -- Closed sign on Rhodes saloon
 RequestImap(481636996)
 RequestImap(-1671953459)
-RequestImap(910941329)
+--RequestImap(910941329) -- Strange white block outside Rhodes saloon
 RequestImap(518127510)
 RequestImap(758684739)
 RequestImap(-661825463)
