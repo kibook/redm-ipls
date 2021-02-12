@@ -210,6 +210,56 @@ Citizen.CreateThread(function()
 		"_s_wormcan01x_group"
 	})
 
+	ActivateInteriorEntitySets(258, "Rhodes general store", {
+		"_FIN2_EXT_P19_FRAMES_ON",
+		"_p_apple01x_dressing",
+		"_p_apple01x_group",
+		"_p_bread06x_dressing",
+		"_p_bread06x_group",
+		"_p_cigar02x_dressing",
+		"_p_cigar02x_group",
+		"_p_cigarettebox01x_dressing",
+		"_p_cigarettebox01x_group",
+		"_p_corn02x_dressing",
+		"_p_corn02x_group",
+		"_p_tin_pomade01x_dressing",
+		"_p_tin_pomade01x_group",
+		"_s_beardTonic01x_dressing",
+		"_s_beardTonic01x_group",
+		"_s_biscuits01x_dressing",
+		"_s_biscuits01x_group",
+		"_s_brandy01x_group",
+		"_s_candyBag01x_red_group",
+		"_s_canPeas01x_dressing",
+		"_s_canPeas01x_group",
+		"_s_canPineapple01x_dressing",
+		"_s_canPineapple01x_group",
+		"_s_canStrawberries01x_dressing",
+		"_s_canStrawberries01x_group",
+		"_s_cheeseWedge1x_dressing",
+		"_s_cheeseWedge1x_group",
+		"_s_chocolateBar02x_dressing",
+		"_s_chocolateBar02x_group",
+		"_s_coffeeTin01x_dressing",
+		"_s_coffeeTin01x_group",
+		"_s_cornedBeef01x_dressing",
+		"_s_cornedBeef01x_group",
+		"_s_inv_horsePills01x_dressing",
+		"_s_inv_horsePills01x_group",
+		"_s_inv_rum01x_dressing",
+		"_s_inv_rum01x_group",
+		"_s_inv_tabacco01x_dressing",
+		"_s_inv_tabacco01x_group",
+		"_s_inv_whiskey01x_dressing",
+		"_s_inv_whiskey01x_group",
+		"_s_oatcakes01x_dressing",
+		"_s_oatcakes01x_group",
+		"_s_peach01x_dressing",
+		"_s_peach01x_group",
+		"_s_saltedbeef01x_group",
+		"_s_saltedbeef02x_group"
+	})
+
         isLoaded = true
     end
 end)
