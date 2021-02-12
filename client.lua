@@ -300,6 +300,34 @@ Citizen.CreateThread(function()
 		"_s_inv_varmint_rifleammo01x_group"
 	})
 
+	ActivateInteriorEntitySets(3074, "Saint Denis general store", {
+		"_p_bread06x_dressing",
+		"_p_bread06x_group",
+		"_p_cigar02x_dressing",
+		"_p_cigar02x_group",
+		"_p_cigarettebox01x_dressing",
+		"_p_cigarettebox01x_group",
+		"_s_biscuits01x_dressing",
+		"_s_biscuits01x_group",
+		"_s_brandy01x_group",
+		"_s_candyBag01x_red_group",
+		"_s_cheeseWedge1x_dressing",
+		"_s_cheeseWedge1x_group",
+		"_s_chocolateBar02x_dressing",
+		"_s_chocolateBar02x_group",
+		"_s_coffeeTin01x_dressing",
+		"_s_coffeeTin01x_group",
+		"_s_crackers01x_dressing",
+		"_s_crackers01x_group",
+		"_s_inv_gin01x_dressing",
+		"_s_inv_gin01x_group",
+		"_s_inv_rum01x_group",
+		"_s_inv_tabacco01x_dressing",
+		"_s_inv_tabacco01x_group",
+		"_s_inv_whiskey01x_dressing",
+		"_s_inv_whiskey01x_group"
+	})
+
         isLoaded = true
     end
 end)
