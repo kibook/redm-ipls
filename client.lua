@@ -468,6 +468,10 @@ Citizen.CreateThread(function()
 		"_s_inv_xpres_rifleAmmo01x_group"
 	})
 
+	ActivateInteriorEntitySets(29442, "Rhodes bank", {
+		"rhobank_int_walla"
+	})
+
         isLoaded = true
     end
 end)
