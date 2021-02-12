@@ -52,14 +52,13 @@ Citizen.CreateThread(function()
             end
         end
 
-        local interior = GetInteriorAtCoords(3285.792, -1325.603, 43.08399)
+        local interior = 51202
         local isValid = IsValidInterior(interior)
         if isValid then
-            if IsInteriorEntitySetActive(interior, "korrigan_props_default") then
+            if IsInteriorEntitySetActive(interior, "korrigan_props_poker") then
                 print("Riverboat Interior Already Active")
             else
                 ActivateInteriorEntitySet(interior, "korrigan_props_poker")
-                ActivateInteriorEntitySet(interior, "korrigan_props_default")
                 print("Riverboat Interior Activated")
             end
         end
