@@ -381,6 +381,10 @@ Citizen.CreateThread(function()
 		"_s_wormcan01x_group"
 	})
 
+	ActivateInteriorEntitySets(42754, "Saint Denis bank", {
+		"new_com_bank_before"
+	})
+
         isLoaded = true
     end
 end)
