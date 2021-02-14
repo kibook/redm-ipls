@@ -501,6 +501,25 @@ Citizen.CreateThread(function()
 		"pro_worker_jack_bed_ambient"
 	})
 
+	ActivateInteriorEntitySets(24834, "Shady Belle", {
+		"shb_arthurpickup_bookforage",
+		"shb_arthurpickup_bookhunting",
+		"shb_p_ammo01",
+		"shb_p_ammo02",
+		"shb_p_ammo03",
+		"shb_p_industry_outro",
+		"shb_p_mansion_01",
+		"shb_p_mansion_fasttravel",
+		"shb_p_mansion_pulp_eden",
+		"shb_p_mansion_pulp_inferno",
+		"shb_upg_arthur_chest",
+		"shb_upg_arthur_rug",
+		"shb_upg_arthur_table",
+		"shb_upg_john_rug",
+		"shb_upg_skull_gator",
+		"shb_upg_skull_ram"
+	})
+
         isLoaded = true
     end
 end)
