@@ -529,6 +529,28 @@ Citizen.CreateThread(function()
 		"rocky_int_clean"
 	})
 
+	ActivateInteriorEntitySets(65282, "Wallace Station general store", {
+		"_p_cigarettebox01x_dressing",
+		"_p_cigarettebox01x_group",
+		"_p_tin_pomade01x_dressing",
+		"_p_tin_pomade01x_group",
+		"_saltedmeats_dressing",
+		"_s_biscuits01x_dressing",
+		"_s_biscuits01x_group",
+		"_s_crackers01x_dressing",
+		"_s_crackers01x_group",
+		"_s_gunOil01x_dressing",
+		"_s_gunOil01x_group",
+		"_s_inv_CocaineGum01x_dressing",
+		"_s_inv_CocaineGum01x_group",
+		"_s_inv_tabacco01x_dressing",
+		"_s_inv_tabacco01x_group",
+		"_s_inv_whiskey01x_dressing",
+		"_s_inv_whiskey01x_group",
+		"_s_saltedbeef01x_group",
+		"_s_saltedbeef02x_group"
+	})
+
         isLoaded = true
     end
 end)
