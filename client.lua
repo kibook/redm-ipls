@@ -579,6 +579,27 @@ Citizen.CreateThread(function()
 		"_s_inv_whiskey01x_group"
 	})
 
+	ActivateInteriorEntitySets(2818, "Annesburg gun store", {
+		"ann_gunsmith_int_rent",
+		"_sign_pistolAmmo_dressing",
+		"_sign_revolverAmmo_dressing",
+		"_sign_rifleAmmo_dressing",
+		"_sign_shotgunAmmo_dressing",
+		"_s_inv_arrowammo01x_dressing",
+		"_s_inv_highvlcty_pstAmmo01x_group",
+		"_s_inv_highvlcty_revAmmo01x_group",
+		"_s_inv_highvlcty_rifleAmmo01x_group",
+		"_s_inv_pistolAmmo01x_group",
+		"_s_inv_repeatHV_rifleammo01x_group",
+		"_s_inv_repeat_rifleammo01x_dressing",
+		"_s_inv_repeat_rifleammo01x_group",
+		"_s_inv_revolverAmmo01x_group",
+		"_s_inv_rifleAmmo01x_group",
+		"_s_inv_shotgunAmmo01x_group",
+		"_s_inv_slug_shotgunAmmo01x_group",
+		"_s_inv_varmint_rifleammo01x_group"
+	})
+
         isLoaded = true
     end
 end)
