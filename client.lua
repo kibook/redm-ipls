@@ -520,6 +520,11 @@ Citizen.CreateThread(function()
 		"shb_upg_skull_ram"
 	})
 
+	ActivateInteriorEntitySets(26626, "Galarie", {
+		"new_art_photos_pre_RC_Mason",
+		"new_forMyArt_paintings"
+	})
+
         isLoaded = true
     end
 end)
