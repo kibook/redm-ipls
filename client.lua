@@ -525,6 +525,10 @@ Citizen.CreateThread(function()
 		"new_forMyArt_paintings"
 	})
 
+	ActivateInteriorEntitySets(72450, "Willards Rest", {
+		"rocky_int_clean"
+	})
+
         isLoaded = true
     end
 end)
