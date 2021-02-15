@@ -551,6 +551,34 @@ Citizen.CreateThread(function()
 		"_s_saltedbeef02x_group"
 	})
 
+	ActivateInteriorEntitySets(3842, "Armadillo general store", {
+		"_p_cigar02x_dressing",
+		"_p_cigar02x_group",
+		"_p_tin_pomade01x_dressing",
+		"_p_tin_pomade01x_group",
+		"_s_biscuits01x_dressing",
+		"_s_biscuits01x_group",
+		"_s_crackers01x_dressing",
+		"_s_crackers01x_group",
+		"_s_inv_arrowammo01x_dressing",
+		"_s_inv_baitHerb01x_dressing",
+		"_s_inv_baitherb01x_group",
+		"_s_inv_baitMeat01x_dressing",
+		"_s_inv_baitmeat01x_group",
+		"_s_inv_pistolAmmo01x_dressing",
+		"_s_inv_pistolAmmo01x_group",
+		"_s_inv_revolverAmmo01x_dressing",
+		"_s_inv_revolverAmmo01x_group",
+		"_s_inv_rifleAmmo01x_dressing",
+		"_s_inv_rifleAmmo01x_group",
+		"_s_inv_shotgunAmmo01x_dressing",
+		"_s_inv_shotgunAmmo01x_group",
+		"_s_inv_tabacco01x_dressing",
+		"_s_inv_tabacco01x_group",
+		"_s_inv_whiskey01x_dressing",
+		"_s_inv_whiskey01x_group"
+	})
+
         isLoaded = true
     end
 end)
