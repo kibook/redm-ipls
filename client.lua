@@ -600,6 +600,11 @@ Citizen.CreateThread(function()
 		"_s_inv_varmint_rifleammo01x_group"
 	})
 
+	ActivateInteriorEntitySets(2, "Chez Porter", {
+		"che_cabin_int_roof_intact",
+		"che_maincabin_occupied"
+	})
+
         isLoaded = true
     end
 end)
