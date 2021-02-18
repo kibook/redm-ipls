@@ -132,7 +132,8 @@ Citizen.CreateThread(function()
 		"IntGrp_livingrm_furniture_basic",
 		"bee_01_house_fireplace_on",
 		"BEECHERS_PIANO_STOOL",
-		"bee_01_house_chair"
+		"bee_01_house_chair",
+		"Beechers_fully_decorated_finale"
 	})
 
 	ActivateInteriorEntitySets(49154, "Bronte", {
@@ -2064,7 +2065,7 @@ RequestImap(-512601161) -- grave
 RequestImap(765343099)
 RequestImap(-909306169)
 RequestImap(-879315604)
-RequestImap(103750283)
+RemoveImap(103750283) -- Floating junk at 1545.93 -5839.09 42.42
 ------------------------#### END Guarma
 
 ------------------------Abandoned Indian Reservation - -1602.19, -892.21, 86.83
