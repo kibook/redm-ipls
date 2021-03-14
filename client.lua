@@ -1410,10 +1410,6 @@ RequestImap(19217583)
 RequestImap(-284612948)
 ------------------------------------- #### END OF BEECHERS FIELD ####
 
------------------------ hole at -1627.81, 224.5, 106.45
-RequestImap(1861460906)
-------------------------------------- #### END OF HOLE AT -1627.81, 224.5, 106.45 ####
-
 ----------------------- farm with hole in ground next to W in West Elizabeth 
 RequestImap(-928367655)
 RequestImap(890107948)
@@ -1443,7 +1439,6 @@ RequestImap(764025611)
 -- RequestImap(474113610) -- plants
 -- RequestImap(1298607560)
 -- RequestImap(-297340751) -- small pines
-RequestImap(-1079295176)
 RequestImap(1271713904)
 RequestImap(1423681694)
 RequestImap(1293624693)
@@ -2277,6 +2272,11 @@ RequestImap(920427419) -- Upper Scaffolding
 RequestImap(258104717) -- house interior -1551.33, 253.69, 114.8
 RequestImap(-76700394) -- house interior -1551.33, 253.69, 114.8
 --RequestImap(1614255891) -- remove planks outside house-1551.33, 253.69, 114.8
+RequestImap(-37875204) -- outside of house
+RemoveImap(-1079295176) -- extra ground?
+RemoveImap(894787561) -- Trees in middle of house
+RequestImap(1044079550) -- bushes at front of house
+RequestImap(1861460906) -- ground around house
 ------------------------#### END House at -1551.33, 253.69, 114.8
 
 ------------------------House at -561.17, 2697.11, 319.4
@@ -2413,7 +2413,6 @@ RequestImap(205214733) -- something relating to -1569.54, 2946.85, 504.37
 RequestImap(-78801135) -- something relating to -1782.61, 2924.14, 481.72
 RequestImap(1216075674) -- something relating to -1520.42, 509.22, 101.26
 RequestImap(-1316886711) -- something relating to -1549.93, 3119.07, 475.97
-RequestImap(-37875204) -- something relating to -1582.34, 252.47, 110.61
 RequestImap(-518858513) -- something relating to -415.41, 1731.15, 216.25
 RequestImap(-528294019) -- something relating to 51.81, 1074.13, 179.15
 RequestImap(1708195603) -- something relating to 58.09, 1104.24, 180.13
@@ -2789,8 +2788,6 @@ RequestImap(563944718)
 RequestImap(-1532653291)
 RequestImap(1873580721)
 RequestImap(1706906210)
-RequestImap(1044079550)
-RequestImap(894787561)
 RequestImap(-758463889)
 RequestImap(1601053042)
 RequestImap(952753807)
@@ -3136,3 +3133,7 @@ RequestImap(1465430690)
 
 -- Trelawny's Caravan
 RemoveImap(3804149174) -- Removes blocked entrance
+
+-- Horshoe Overlook
+--RemoveImap(2022451711) -- Dutch's tent, messy
+--RequestImap(1457661960) -- Dutch's tent half open front
