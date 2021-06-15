@@ -3086,12 +3086,12 @@ RequestImap(1822607116) -- Thieves Landing gate doors open
 RequestImap(216214729)
 RequestImap(-87826930)
 RequestImap(286801141)
-RequestImap(622597018)
+RemoveImap(622597018) -- closed door on white barn near Braithwaite manor
 RequestImap(2016081133)
 RequestImap(-21876618)
 RequestImap(1048790253)
 RequestImap(363257921)
-RequestImap(1649275138)
+RemoveImap(1649275138) -- closed windows on white barn near Braithwaite manor
 RequestImap(-1872939092)
 RequestImap(-1484530238)
 RequestImap(-964156415)
