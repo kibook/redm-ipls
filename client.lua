@@ -606,6 +606,11 @@ Citizen.CreateThread(function()
 		"che_maincabin_occupied"
 	})
 
+	ActivateInteriorEntitySets(9986, "Downes Home", {
+		"IntGroup_Downes_before_move",
+		"IntGroup_Downes_pulp_novel"
+	})
+
         isLoaded = true
     end
 end)
